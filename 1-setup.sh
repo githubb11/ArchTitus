@@ -78,7 +78,6 @@ PKGS=(
 'bridge-utils'
 'btrfs-progs'
 'cmatrix'
-'code' # Visual Studio code
 'cronie'
 'dialog'
 'dosfstools'
@@ -105,7 +104,7 @@ PKGS=(
 'iptables-nft'
 'jdk-openjdk' # Java 17
 'kcodecs'
-'kcoreaddons'
+'kde-gtk-config'
 'kvantum-qt5'
 'layer-shell-qt'
 'libdvdcss'
@@ -118,6 +117,7 @@ PKGS=(
 'lzop'
 'm4'
 'make'
+'milou'
 'nano'
 'neofetch'
 'networkmanager'
@@ -140,12 +140,8 @@ PKGS=(
 'python-psutil'
 'python-pyqt5'
 'python-pip'
-'qemu'
 'rsync'
-'sddm'
-'sddm-kcm'
 'snapper'
-'steam'
 'sudo'
 'swtpm'
 'terminus-font'
@@ -155,8 +151,6 @@ PKGS=(
 'unzip'
 'usbutils'
 'vim'
-'virt-manager'
-'virt-viewer'
 'wget'
 'which'
 'wine-gecko'
@@ -166,30 +160,6 @@ PKGS=(
 'xdg-user-dirs'
 'zeroconf-ioslave'
 'zip'
-'awesome'
-'tlp'
-'youtube-dl'
-'shellcheck'
-'scrcpy'
-'rofi'
-'nomacs'
-'lxappearance'
-'krusader'
-'kdiskmark'
-'i3lock'
-'hwinfo'
-'handbrake'
-'evince'
-'fail2ban'
-'docker'
-'flameshot'
-'inkscape'
-'smplayer'
-'playonlinux'
-'obs-studio'
-'terminator'
-'gimp'
-'lightdm'
 )
 
 for PKG in "${PKGS[@]}"; do
@@ -240,4 +210,3 @@ then
 else
 	echo "You are already a user proceed with aur installs"
 fi
-

@@ -23,10 +23,8 @@ PKGS=(
 'awesome-terminal-fonts'
 'brave-bin' # Brave Browser
 'dxvk-bin' # DXVK DirectX to Vulcan
-'github-desktop-bin' # Github Desktop sync
 'nerd-fonts-fira-code'
 'noto-fonts-emoji'
-'papirus-icon-theme'
 'ocs-url' # install packages from websites
 'snapper-gui-git'
 'ttf-droid'
@@ -40,7 +38,6 @@ for PKG in "${PKGS[@]}"; do
     yay -S --noconfirm $PKG
 done
 
-export PATH=$PATH:~/.local/bin
 
 echo -e "\nDone!\n"
 exit

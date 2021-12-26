@@ -19,9 +19,6 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 # ------------------------------------------------------------------------
 
-echo -e "\nEnabling Login Display Manager"
-systemctl enable lightdm.service
-echo -e "\nSetup SDDM Theme"
 
 
 # ------------------------------------------------------------------------
@@ -29,7 +26,6 @@ echo -e "\nSetup SDDM Theme"
 echo -e "\nEnabling essential services"
 
 ntpd -qg
-
 systemctl enable ntpd.service
 systemctl disable dhcpcd.service
 systemctl stop dhcpcd.service
