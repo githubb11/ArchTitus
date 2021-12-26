@@ -32,6 +32,8 @@ EOF
 echo -e "\nEnabling essential services"
 
 ntpd -qg
+
+sudo systemctl enable lightdm.service
 systemctl enable ntpd.service
 systemctl disable dhcpcd.service
 systemctl stop dhcpcd.service
