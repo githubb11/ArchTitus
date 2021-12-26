@@ -29,6 +29,10 @@ playonlinux
 'wine-gecko'
 'wine-mono'
 'winetricks'
+darktable
+arj 
+hwinfo
+
 
 aur
 'ttf-droid'
