@@ -20,22 +20,16 @@ cd ~
 
 PKGS=(
 'autojump'
-'awesome-terminal-fonts'
-'brave-bin' # Brave Browser
 'dxvk-bin' # DXVK DirectX to Vulcan
 'nerd-fonts-fira-code'
 'noto-fonts-emoji'
 'ocs-url' # install packages from websites
 'snapper-gui-git'
-'ttf-droid'
-'ttf-hack'
-'ttf-meslo' # Nerdfont package
-'ttf-roboto'
 'snap-pac'
 )
 
 for PKG in "${PKGS[@]}"; do
-    yay -S --noconfirm $PKG
+    yay -S $PKG
 done
 
 

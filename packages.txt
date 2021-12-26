@@ -31,4 +31,9 @@ playonlinux
 'winetricks'
 
 aur
-
+'ttf-droid'
+'ttf-hack'
+'ttf-meslo' # Nerdfont package
+'ttf-roboto'
+'awesome-terminal-fonts'
+'brave-bin' # Brave Browser

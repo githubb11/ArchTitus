@@ -83,7 +83,6 @@ PKGS=(
 'dosfstools'
 'dtc'
 'efibootmgr' # EFI boot
-'egl-wayland'
 'exfat-utils'
 'extra-cmake-modules'
 'flex'
@@ -149,7 +148,6 @@ PKGS=(
 'vim'
 'wget'
 'which'
-
 'xdg-desktop-portal-kde'
 'xdg-user-dirs'
 'zeroconf-ioslave'
@@ -158,7 +156,7 @@ PKGS=(
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
-    sudo pacman -S "$PKG" --noconfirm --needed
+    sudo pacman -S "$PKG" --needed
 done
 
 #
