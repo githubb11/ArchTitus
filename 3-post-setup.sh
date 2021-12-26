@@ -31,7 +31,6 @@ EOF
 
 echo -e "\nEnabling essential services"
 
-systemctl enable cups.service
 ntpd -qg
 systemctl enable ntpd.service
 systemctl disable dhcpcd.service
