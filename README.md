@@ -1,7 +1,6 @@
 # arch installer Installer Script
-# this is not ment for use by the public no pull requests will be accepted 
-# if you need help [put your issue here](https://github.com/ChrisTitusTech/ArchTitus/issues)
-<img src="https://i.imgur.com/YiNMnan.png" />
+## this is not ment for use by the public no pull requests will be accepted 
+## if you need help [put your issue here](https://github.com/ChrisTitusTech/ArchTitus/issues)
 
 This README contains the steps I do to install and configure a fully-functional Arch Linux installation containing a desktop environment, all the support packages (network, bluetooth, audio, printers, etc.), along with all my preferred applications and utilities. The shell scripts in this repo allow the entire process to be automated.)
 
