@@ -3,6 +3,8 @@
 sudo pacman -S awesome code rofi 
 
 # laptop stuff
+
+
 PKGS=(
 ''
 )
