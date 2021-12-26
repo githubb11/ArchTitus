@@ -104,8 +104,6 @@ PKGS=(
 'iptables-nft'
 'jdk-openjdk' # Java 17
 'kcodecs'
-'kde-gtk-config'
-'kvantum-qt5'
 'layer-shell-qt'
 'libdvdcss'
 'libnewt'
@@ -131,8 +129,6 @@ PKGS=(
 'patch'
 'picom'
 'pkgconf'
-'powerdevil'
-'powerline-fonts'
 'pulseaudio'
 'pulseaudio-alsa'
 'pulseaudio-bluetooth'
