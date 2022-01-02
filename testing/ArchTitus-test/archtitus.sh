@@ -17,7 +17,7 @@ echo -ne "
 "
     sh ./startup.sh
     source setup.conf
-    sh ./0-preinstall.sh
+    bash ./0-preinstall.sh
     arch-chroot /mnt /root/$SCRIPTHOME/1-setup.sh
     source /mnt/root/$SCRIPTHOME/install.conf
     arch-chroot /mnt /usr/bin/runuser -u $username -- /home/$username/$SCRIPTHOME/2-user.sh
