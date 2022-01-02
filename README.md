@@ -1,8 +1,8 @@
 # arch installer Installer Script
-## this is not ment for use by the public no pull requests will be accepted 
+## no pull requests will be accepted
 ## if you need help [put your issue here](https://github.com/ChrisTitusTech/ArchTitus/issues)
 
-This README contains the steps I do to install and configure a fully-functional Arch Linux installation containing a desktop environment, all the support packages (network, bluetooth, audio, printers, etc.), along with all my preferred applications and utilities. The shell scripts in this repo allow the entire process to be automated.)
+This README contains the steps I do to install and configure a bare minimal Arch Linux installation containing all the bare minimal packages for arch to boot in to a tty
 
 ---
 ## Create Arch ISO or Use Image
@@ -15,28 +15,19 @@ From initial Prompt type the following commands:
 
 ```
 pacman -Sy git
-git clone https://github.com/
+git clone https://github.com/githubb11/ArchTitus
 cd ArchTitus
 ./archtitus.sh
 ```
 
 ### System Description
-This is completely automated arch install of the awesome wm on arch using all the packages I use on a daily basis. 
-
-## programs
-- gimp
-- vscode
-- vim
-- nano
-- qemu kvm
-- grub-customizer
-- awesome
+This is completely automated arch install of the on arch using all the packages I use on a daily basis. 
 
 ## Troubleshooting
 
 __[Arch Linux Installation Guide](https://github.com/rickellis/Arch-Linux-Install-Guide)__
 
-### No Wifi
+### no ethernet
 
 #1: Run `iwctl`
 

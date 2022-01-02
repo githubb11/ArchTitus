@@ -20,19 +20,10 @@ git clone "https://aur.archlinux.org/yay.git"
 cd ${HOME}/yay
 makepkg -si --noconfirm
 cd ~
-touch "$HOME/.cache/zshhistory"
-git clone "https://github.com/ChrisTitusTech/zsh"
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $HOME/powerlevel10k
-ln -s "$HOME/zsh/.zshrc" $HOME/.zshrc
 
 yay -S --noconfirm --needed - < /pkg-files/aur-pkgs.txt
 
 export PATH=$PATH:~/.local/bin
-cp -r $HOME/$SCRIPTHOME/dotfiles/* $HOME/.config/
-pip install konsave
-konsave -i $HOME/$SCRIPTHOME/kde.knsv
-sleep 1
-konsave -a kde
 
 echo -ne "
 -------------------------------------------------------------------------
