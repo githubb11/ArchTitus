@@ -37,3 +37,6 @@ for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
     sudo pacman -S "$PKG" --needed
 done
+
+
+echo "run startx to start X11"
