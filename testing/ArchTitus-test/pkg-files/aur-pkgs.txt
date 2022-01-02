@@ -1,9 +1,3 @@
 autojump
 dxvk-bin
 ocs-url
-snapper-gui-git
-ttf-droid
-ttf-hack
-ttf-meslo
-ttf-roboto
-snap-pac

@@ -61,10 +61,8 @@ ntp
 openbsd-netcat
 openssh
 os-prober
-p7zip
 pacman-contrib
 patch
-picom
 pkgconf
 pulseaudio
 pulseaudio-alsa
@@ -87,4 +85,3 @@ wget
 which
 xdg-user-dirs
 zeroconf-ioslave
-zip
