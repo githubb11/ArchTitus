@@ -122,7 +122,7 @@ echo "username=${username,,}" >> ${HOME}/${SCRIPTHOME}/install.conf
 fi
 if [ $(whoami) = "root"  ];
 then
-    useradd -m -G wheel,libvirt -s /bin/bash $username 
+    useradd -m -G wheel -s /bin/bash $username 
 	passwd $username
 	cp -R ${HOME}/${SCRIPTHOME} /home/${username}/
     chown -R ${username}: /home/${username}/${SCRIPTHOME}
@@ -151,7 +151,7 @@ echo -ne "
 -------------------------------------------------------------------------
 "
 if [ $(whoami) = "root"  ]; then
-    useradd -m -G wheel,libvirt -s /bin/bash $username 
+    useradd -m -G wheel -s /bin/bash $username 
 # use chpasswd to enter $username:$password
     echo "$username:$password" | chpasswd
 	cp -R /root/$SCRIPTHOME /home/$username/

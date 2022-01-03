@@ -115,10 +115,10 @@ if [[ ! -d "/sys/firmware/efi" ]]; then
     grub-install --boot-directory=/mnt/boot ${DISK}
 fi
 echo "--------------------------------------"
-echo "-- Check for low memory systems <8G --"
+echo "-- Check for low memory systems <40G --"
 echo "--------------------------------------"
 TOTALMEM=$(cat /proc/meminfo | grep -i 'memtotal' | grep -o '[[:digit:]]*')
-if [[  $TOTALMEM -lt 8000000 ]]; then
+if [[  $TOTALMEM -lt 40000000 ]]; then
     #Put swap into the actual system, not into RAM disk, otherwise there is no point in it, it'll cache RAM into RAM. So, /mnt/ everything.
     mkdir /mnt/opt/swap #make a dir that we can apply NOCOW to to make it btrfs-friendly.
     chattr +C /mnt/opt/swap #apply NOCOW, btrfs needs that.

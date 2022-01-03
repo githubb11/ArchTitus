@@ -48,5 +48,3 @@ echo "
 # Done - Please Eject Install Media and Reboot
 ###############################################################################
 "
-
-neofetch
