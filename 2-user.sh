@@ -19,13 +19,7 @@ makepkg -si --noconfirm
 cd ~
 
 PKGS=(
-'autojump'
-'dxvk-bin' # DXVK DirectX to Vulcan
-'nerd-fonts-fira-code'
-'noto-fonts-emoji'
-'ocs-url' # install packages from websites
-'snapper-gui-git'
-'snap-pac'
+
 )
 
 for PKG in "${PKGS[@]}"; do
