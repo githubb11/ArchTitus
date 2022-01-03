@@ -64,7 +64,6 @@ PKGS=(
 'xterm'
 'alsa-plugins' # audio plugins
 'alsa-utils' # audio utils
-'audiocd-kio' 
 'autoconf' # build
 'automake' # build
 'base'
