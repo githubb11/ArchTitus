@@ -2,5 +2,5 @@
 
 sudo cat <<EOF > /etc/vconsole.conf
 KEYMAP=us
-FONT=ter-v13b
+FONT=ter-v16b
 EOF

@@ -1,3 +1,0 @@
-autojump
-dxvk-bin
-ocs-url
